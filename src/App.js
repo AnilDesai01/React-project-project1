@@ -1,13 +1,20 @@
+
+import ContactForm from "./components/ContactForm/ContactForm";
+import ContactHeader from "./components/ContactHeader/ContactHeader";
+import Navigation from "./components/Navigation/Navigation";
 import "./index.css"
-import Navigation from "./components/Navigation"
-import Hero from "./components/Hero";
+
 
 
 const App = () => {
   return (
     <div>
     <Navigation/>
-    <Hero/>
+   <main className="main_container">
+   <ContactHeader/>
+   <ContactForm/>
+
+   </main>
     </div>
    
   );
